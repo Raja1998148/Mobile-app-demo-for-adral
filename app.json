@@ -26,7 +26,13 @@
     },
     "plugins": [
       "expo-router",
-      "expo-font"
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Bazaar to use your location to find deals near you."
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
